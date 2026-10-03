@@ -83,12 +83,11 @@ Ele nasceu como prática final de um **curso de informática básica** (comandos
 <td width="50%">
 
 ### 🎨 Visual e animações
-- Tela de carregamento animada
 - Hero com vídeo, texto que se digita sozinho e demo ao vivo
 - Efeitos de revelação ao rolar a página
 - Contadores animados
 - Cartões 3D que acompanham o mouse
-- **Animação Lottie** das marcas do grupo (JBS, Seara, Friboi, PicPay) conectadas ao J&F
+- **Tela de carregamento com animação Lottie**: as marcas do grupo (JBS, Seara, Friboi, PicPay) se conectam ao J&F, com botão para pular
 - Layout responsivo para celular
 
 </td>
@@ -105,7 +104,7 @@ Ele nasceu como prática final de um **curso de informática básica** (comandos
 <td><img src="docs/screenshots/03-resultado.png" alt="Tela de resultado"><br><sub><b>Resultado</b> com gráfico de velocidade e certificado</sub></td>
 </tr>
 <tr>
-<td colspan="2"><img src="docs/screenshots/04-animacao-marcas.png" alt="Animação Lottie das marcas"><br><sub><b>Animação Lottie</b> das marcas do grupo</sub></td>
+<td colspan="2"><img src="docs/screenshots/04-animacao-marcas.png" alt="Animação Lottie das marcas"><br><sub><b>Tela de carregamento</b> com a animação Lottie das marcas do grupo</sub></td>
 </tr>
 <tr>
 <td colspan="2"><img src="docs/screenshots/07-comandos.png" alt="Demonstrações de atalhos"><br><sub><b>Comandos do PC</b>: demonstrações animadas de atalhos</sub></td>
@@ -193,7 +192,7 @@ As listas `VALUES`, `COMPANIES`, `TIMELINE` e `SCHOOLS` controlam as outras seç
 - **Canvas API** para o gráfico e o confete
 - **Web Audio API** para os sons de digitação
 - **IntersectionObserver** para as animações de rolagem
-- **[lottie-web](https://github.com/airbnb/lottie-web)** para a animação das marcas. O arquivo `animacoes/jf-marcas.json` pode ser aberto e editado no [Lottie Creator](https://lottiefiles.com/lottie-creator)
+- **[lottie-web](https://github.com/airbnb/lottie-web)** para a animação da tela de carregamento. O arquivo `animacoes/jf-marcas.json` pode ser aberto e editado no [Lottie Creator](https://lottiefiles.com/lottie-creator)
 - Fontes **Montserrat**, **Inter** e **JetBrains Mono** (Google Fonts)
 
 ---
