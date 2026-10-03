@@ -24,7 +24,7 @@
 
 O **Digita J&F** é um site de treino de digitação no estilo do Ratatype, mas com temática própria: todos os textos das lições falam sobre os **valores**, a **missão**, a **história**, as **empresas** e as **escolas** do Grupo J&F.
 
-Ele nasceu como prática final de um **curso de informática básica** (comandos do PC, Word e PowerPoint). A ideia é simples: a pessoa pratica o que aprendeu sobre teclado e, ao mesmo tempo, conhece melhor a cultura do grupo.
+Ele nasceu como prática final de um **curso de informática básica** (comandos do PC, Word e PowerPoint). Além do treino de digitação, o site tem um módulo de **comandos do computador**, com atalhos, um desafio e um simulador de ligar e desligar o PC. A pessoa pratica o que aprendeu e, ao mesmo tempo, conhece melhor a cultura do grupo.
 
 > Tudo roda direto no navegador. É um único arquivo `index.html`, sem instalação, sem servidor e sem bibliotecas externas.
 
@@ -37,7 +37,7 @@ Ele nasceu como prática final de um **curso de informática básica** (comandos
 <td width="50%">
 
 ### 🎯 Área de treino
-- 9 lições em 3 níveis (fácil, médio e difícil)
+- 10 lições em 3 níveis (fácil, médio e difícil)
 - Testes cronometrados de 1 e 2 minutos
 - Velocidade em **PPM**, precisão, erros e tempo ao vivo
 - **Combo** de acertos seguidos
@@ -54,6 +54,18 @@ Ele nasceu como prática final de um **curso de informática básica** (comandos
 - **Ranking da turma**
 - **Certificado** para imprimir ou salvar em PDF
 - Confete quando o desempenho é bom
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### 🖱️ Comandos do computador
+- **Demonstrações animadas** de Copiar e colar, Alt + Tab, Desfazer, Win + D e Captura de tela, numa tela de PC simulada
+- **Guia com 35 atalhos** do Windows, com busca e filtro por categoria (Texto, Arquivos, Janelas, Sistema e Navegador)
+- **Desafio de atalhos**: 12 perguntas, em que você aperta o atalho de verdade no teclado ou escolhe entre 4 opções, com cronômetro, sequência de acertos, revisão dos erros e ranking
+- **Simulador de ligar e desligar o PC**: ligar, entrar, salvar o arquivo, fechar o programa e desligar pelo menu Iniciar, com avisos quando a pessoa erra (por exemplo, tentar desligar com um arquivo aberto sem salvar)
+- Cartões explicando **Desligar, Reiniciar e Suspender**, e o que nunca fazer
 
 </td>
 </tr>
@@ -76,6 +88,7 @@ Ele nasceu como prática final de um **curso de informática básica** (comandos
 - Efeitos de revelação ao rolar a página
 - Contadores animados
 - Cartões 3D que acompanham o mouse
+- **Animação Lottie** das marcas do grupo (JBS, Seara, Friboi, PicPay) conectadas ao J&F
 - Layout responsivo para celular
 
 </td>
@@ -90,6 +103,16 @@ Ele nasceu como prática final de um **curso de informática básica** (comandos
 <tr>
 <td><img src="docs/screenshots/02-arena.png" alt="Área de treino"><br><sub><b>Área de treino</b> com teclado virtual, combo e estatísticas</sub></td>
 <td><img src="docs/screenshots/03-resultado.png" alt="Tela de resultado"><br><sub><b>Resultado</b> com gráfico de velocidade e certificado</sub></td>
+</tr>
+<tr>
+<td colspan="2"><img src="docs/screenshots/04-animacao-marcas.png" alt="Animação Lottie das marcas"><br><sub><b>Animação Lottie</b> das marcas do grupo</sub></td>
+</tr>
+<tr>
+<td colspan="2"><img src="docs/screenshots/07-comandos.png" alt="Demonstrações de atalhos"><br><sub><b>Comandos do PC</b>: demonstrações animadas de atalhos</sub></td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/08-desafio-atalhos.png" alt="Desafio de atalhos"><br><sub><b>Desafio de atalhos</b> com revisão dos erros</sub></td>
+<td><img src="docs/screenshots/09-simulador.png" alt="Simulador de desligar o PC"><br><sub><b>Simulador</b> para desligar o PC do jeito certo</sub></td>
 </tr>
 <tr>
 <td><img src="docs/screenshots/05-valores.png" alt="Valores do grupo"><br><sub><b>Os 7 valores</b> que viram lições</sub></td>
@@ -170,6 +193,7 @@ As listas `VALUES`, `COMPANIES`, `TIMELINE` e `SCHOOLS` controlam as outras seç
 - **Canvas API** para o gráfico e o confete
 - **Web Audio API** para os sons de digitação
 - **IntersectionObserver** para as animações de rolagem
+- **[lottie-web](https://github.com/airbnb/lottie-web)** para a animação das marcas. O arquivo `animacoes/jf-marcas.json` pode ser aberto e editado no [Lottie Creator](https://lottiefiles.com/lottie-creator)
 - Fontes **Montserrat**, **Inter** e **JetBrains Mono** (Google Fonts)
 
 ---
